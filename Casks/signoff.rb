@@ -1,6 +1,6 @@
 cask "signoff" do
   version "0.4.0"
-  sha256 "1025cdb5ee13ecc5f80a764cc6de96fcaa82923ccd821ed6a0c43879ee10bab7"
+  sha256 "3fc5d4b9452e894d5a37563971316d2496e3e6fd7d76220f96de04ef439e23ca"
 
   url "https://github.com/lumi-collective/signoff/archive/refs/tags/v#{version}.tar.gz"
   name "Signoff"
