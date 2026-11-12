@@ -4,8 +4,12 @@
 a local page and gathers every project's questions in one inbox. This tap installs its optional macOS app.
 
 ```bash
+brew tap lumi-collective/signoff
+brew trust --cask lumi-collective/signoff/signoff
 brew install --cask lumi-collective/signoff/signoff
 ```
+
+Homebrew 7 loads a cask from a tap outside Homebrew's own only once you trust it, hence `brew trust`.
 
 The cask downloads the release's source and builds the app on your Mac (Go, which Homebrew installs, and the Xcode
 Command Line Tools), then puts it in `/Applications`. Nothing prebuilt is downloaded. Then install the plugin and
